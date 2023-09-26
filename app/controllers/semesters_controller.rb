@@ -164,7 +164,7 @@ class SemestersController < ApplicationController
                 total = total + 1.0
             end
         end
-        total = total / 6.0
+        total = total / 5.0
         total = total.round(1)
         return total
     end
